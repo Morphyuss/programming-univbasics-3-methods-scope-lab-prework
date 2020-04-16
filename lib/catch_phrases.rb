@@ -1,4 +1,6 @@
-
+$mario
+$toadstool
+$link
 def mario
   status = 'Thank You Mario! But Our Princess Is In Another Castle!'
   phrase = "It's-a me, Mario!"
@@ -16,5 +18,7 @@ end
 
 def all_phrases
   #call mario, toadstool, and link phrases
-  puts
+  puts mario
+  puts toadstool
+  puts link
 end
